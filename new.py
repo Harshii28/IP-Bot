@@ -10,7 +10,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('intents-hackathon-1.json').read())
 
 words = []
 classes = []
